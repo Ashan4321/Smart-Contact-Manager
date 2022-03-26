@@ -19,6 +19,7 @@ import com.smart.helper.Message;
 
 @Controller
 public class HomeController {
+	//This is home controller
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
 	@Autowired

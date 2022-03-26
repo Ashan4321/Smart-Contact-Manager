@@ -37,7 +37,7 @@ public class HomeController {
 	}
 	@RequestMapping("/signup")
 	public String signup(Model model) {
-		System.out.println("Welcome to signup");
+		
 		model.addAttribute("title","Register-Smart Contact Manager");
 		model.addAttribute("user",new User());
 		return "signup";
@@ -75,7 +75,7 @@ public class HomeController {
 	@GetMapping("/signin")
 	public String customLogIn(Model model) {
 		model.addAttribute("title","LogIn Page");
-		model.addAttribute("title","LogIn PAGE");
+		
 		return "Login";
 	}
 	

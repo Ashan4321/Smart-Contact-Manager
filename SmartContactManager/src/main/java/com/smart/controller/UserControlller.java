@@ -36,6 +36,7 @@ public class UserControlller {
 	private UserRepository userRepo;
 	@Autowired
 	private ContactRepo contactRepo;
+	//This method we can use as common method
 //	@ModelAttribute
 //	public void addCommonData(Model model,Principal princpal) {
 //		String userName = princpal.getName();

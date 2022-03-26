@@ -74,7 +74,7 @@ public class HomeController {
 	@GetMapping("/signin")
 	public String customLogIn(Model model) {
 		model.addAttribute("title","LogIn Page");
-		model.addAttribute("title","LogIn PAGE");
+		System.out.println("Hey Ashan mishra");
 		return "Login";
 	}
 	
